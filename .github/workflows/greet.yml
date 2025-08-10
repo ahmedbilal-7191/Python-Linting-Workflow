@@ -16,6 +16,8 @@ jobs:
           python-version: '3.x'
       - name: Run Script
         run: |
+          
+          chmod 700 script.py
           ./script.py
 
 # Workflow-2
