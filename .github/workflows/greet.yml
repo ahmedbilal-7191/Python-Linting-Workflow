@@ -17,7 +17,7 @@ jobs:
       - name: Run Script
         run: | 
           chmod 700 script.py
-          python3 script.py John Doe
+          python3 script.py "John Doe"
 
 # Workflow-2
 # name: Python Tests
