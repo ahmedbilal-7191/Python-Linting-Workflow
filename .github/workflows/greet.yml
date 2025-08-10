@@ -15,10 +15,9 @@ jobs:
         with:
           python-version: '3.x'
       - name: Run Script
-        run: |
-          
+        run: | 
           chmod 700 script.py
-          ./script.py
+          python3 script.py John Doe
 
 # Workflow-2
 # name: Python Tests
